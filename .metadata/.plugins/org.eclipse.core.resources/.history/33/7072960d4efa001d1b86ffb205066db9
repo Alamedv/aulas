@@ -1,0 +1,46 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int n;
+
+		System.out.println("Informe a quantidade de funcionarios: ");
+		n = sc.nextInt();
+		List<Integer> id = new ArrayList<>();
+		List<String> nome = new ArrayList<>();
+		List<Double> salario = new ArrayList<>();
+
+		System.out.println("Informe o nome: ");
+		System.out.println("Informe o ID: ");
+		System.out.println("Informe o Salario: ");
+
+		for (int i = 0; i < n; i++) {
+
+			nome.add(sc.next());
+		}
+
+		for (int i = 0; i < n; i++) {
+			id.add(sc.nextInt());
+		}
+
+		for (int i = 0; i < n; i++) {
+
+			salario.add(sc.nextDouble());
+		}
+
+		System.out.println(id);
+		System.out.println(nome);
+		System.out.println(salario);
+
+		sc.close();
+
+	}
+
+}

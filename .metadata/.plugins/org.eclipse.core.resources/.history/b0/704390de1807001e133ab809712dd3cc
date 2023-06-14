@@ -1,0 +1,22 @@
+package entities;
+
+import java.time.LocalDate;
+
+public class Client {
+
+	public Client(String name, String mail, LocalDate date) {
+		super();
+		this.name = name;
+		this.mail = mail;
+		this.date = date;
+	}
+
+	private String name;
+	private String mail;
+	private LocalDate date;
+	
+	public Client() {
+		super();
+	}
+
+}

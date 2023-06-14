@@ -1,0 +1,15 @@
+package application;
+
+import entities.Comment;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		Comment c1 = new Comment("2"); 
+		
+		System.out.println(c1);
+	}
+
+}

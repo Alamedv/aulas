@@ -1,0 +1,55 @@
+package listaExercicios;
+
+import java.util.Scanner;
+
+public class q10 {
+	/*
+	 * Esse exercício propõe a criação de um programa em Java que trabalhe com
+	 * matrizes e vetores. A matriz a deve ser criada com 3 linhas e 5 colunas, e o
+	 * vetor b deve ter 5 itens. O usuário deverá fornecer os valores para preencher
+	 * a matriz a.
+	 * 
+	 * Em seguida, o programa deve somar todos os itens de uma mesma coluna da
+	 * matriz e guardar o resultado na posição correspondente a esta coluna no vetor
+	 * b. Por exemplo, a soma de todos os elementos da primeira coluna da matriz
+	 * deve ser guardada na primeira posição do vetor b, a soma de todos os
+	 * elementos da segunda coluna da matriz deve ser guardada na segunda posição do
+	 * vetor b, e assim por diante.
+	 * 
+	 * Ao final, o programa deve exibir tanto a matriz a quanto o vetor b. Isso
+	 * permite que o usuário verifique se os valores foram inseridos corretamente e
+	 * se as somas das colunas foram feitas de forma adequada.
+	 */
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		double a[][] = new double[3][5];
+		double vet[] = new double[5];
+		int soma = 0;
+
+		System.out.println("Informe um digito da matriz A: ");
+		
+		for (int l = 0; l < 3; l++) {
+			for (int col = 0; col < 5; col++) {
+							
+				a[l][col] = sc.nextDouble();
+				
+				vet [soma] = a[l][col];
+				
+			soma++;
+			System.out.println(vet[soma]);
+
+		}
+			
+		}
+		
+						
+				System.out.println();
+				
+				sc.close();
+	
+	}
+
+		}
+

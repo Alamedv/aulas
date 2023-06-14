@@ -1,0 +1,9 @@
+package entities;
+
+public class ImportedProduct {
+
+	public ImportedProduct() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

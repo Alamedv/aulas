@@ -1,0 +1,31 @@
+package listaExercicios;
+
+import java.util.Scanner;
+
+public class q11 {
+	/*
+	 * Um distribuidor de refrigerantes vende seu produto em todas as 5 regiões do
+	 * Brasil. Em cada trimestre do ano ele fecha a totalização de vendas por região
+	 * montando uma tabela que cruza região x total de vendas no trimestre.
+	 * 
+	 * Desenvolver um programa que leia o total de vendas em cada região por
+	 * trimestre, e ao final, apresente na tela um relatório com informações de
+	 * vendas por região em cada trimestre, além do total de vendas no ano inteiro
+	 * também por cada região e total geral de vendas no ano pela empresa.
+	 */
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+			int m [][] = new int [5][4];
+			
+			for (int reg = 0; reg <5; reg ++) {
+				for	(int tri= 0; tri<4; tri++) {
+					
+				}
+			}
+			
+			sc.close();
+	}
+
+}

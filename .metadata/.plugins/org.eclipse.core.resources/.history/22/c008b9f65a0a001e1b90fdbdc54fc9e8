@@ -1,0 +1,52 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Product {
+
+	
+	List <Product> product = new ArrayList<>();
+	
+	public List<Product> getProduct() {
+		return product;
+	}
+	
+	public Product(String name, Double price) {
+		super();
+		this.name = name;
+		this.price = price;
+	}
+	public Product() {
+	}
+	private String name;
+	private Double price;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Double getPrice() {
+		return price;
+	}
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+	
+	public String priceTag() {
+		return getName() + " $ " + String.format("%.2f", getPrice());
+	}
+	@Override
+	public String toString() {
+	
+	StringBuilder sb = new StringBuilder();
+	sb.append("PRICE TAGS: \n");
+	
+	
+	for (Product prod : product) {
+		sb.append(prod);	
+	}
+	return sb.toString();
+}	
+}

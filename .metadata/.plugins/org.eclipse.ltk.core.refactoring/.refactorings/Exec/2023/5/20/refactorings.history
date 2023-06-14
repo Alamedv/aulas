@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;controller.Aniamal&apos; to &apos;Animal&apos;&#x0D;&#x0A;- Original project: &apos;Exec&apos;&#x0D;&#x0A;- Original element: &apos;controller.Aniamal&apos;&#x0D;&#x0A;- Renamed element: &apos;controller.Animal&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Aniamal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;controller{Aniamal.java[Aniamal" matchStrategy="1" name="Animal" qualified="false" references="true" similarDeclarations="false" stamp="1684335384926" textual="false" version="1.0"/>
+</session>

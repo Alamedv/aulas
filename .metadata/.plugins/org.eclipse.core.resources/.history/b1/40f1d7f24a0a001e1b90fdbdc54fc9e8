@@ -1,0 +1,12 @@
+package entities;
+
+public class UsedProduct extends Product{
+
+	private double customFee;
+	
+	
+	public UsedProduct() {
+		
+	}
+
+}

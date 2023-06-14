@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package entities.enums;
+
+/**
+ * @author almei
+ *
+ */
+public enum OrderStatus {
+
+}
