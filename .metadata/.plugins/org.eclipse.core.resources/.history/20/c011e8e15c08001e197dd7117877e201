@@ -1,9 +1,0 @@
-package entities;
-
-import java.util.Date;
-
-public class Order2 {
-	private Date moment;
-	private OrderStatus status;
-	private Client client;
-}
